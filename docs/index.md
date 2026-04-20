@@ -18,6 +18,7 @@ hide:
 [🚀 Get Started](getting-started/installation.md){ .md-button .md-button--primary }
 [📖 User Guide](user-guide/overview.md){ .md-button }
 [📄 Full Documentation (PDF)](assets/16FlyMaze.pdf){ .md-button }
+[📚 Reference Thesis (PDF)](assets/20170196_RM_Thesis.pdf){ .md-button }
 
 </div>
 
@@ -136,6 +137,8 @@ graph TD
 | Configure the rig | [Rig Configurator](user-guide/rig-configurator.md) |
 | Design a new experiment | [Experiment Designers](user-guide/experiment-designers.md) |
 | Run an experiment | [Experimenter](user-guide/experimenter.md) |
+| Follow the lab experiment protocol | [Experiment Protocol](user-guide/experiment-protocol.md) |
+| Read the reference thesis | [RM Thesis (PDF)](assets/20170196_RM_Thesis.pdf) |
 | Analyse collected data | [Analysis Tools](user-guide/analysis.md) |
 | Browse the Python API | [API Reference](api-reference/controllers/camera.md) |
 

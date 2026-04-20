@@ -160,3 +160,9 @@ If email is enabled, the system sends notifications at:
 - Periodic reminders if valves are left on after completion
 
 Configure the Gmail API credentials as described in [Installation](../getting-started/installation.md).
+
+---
+
+## Lab Protocol
+
+For step-by-step instructions on loading flies, running sessions, and weekly odor replacement, see the [Experiment Protocol](experiment-protocol.md).

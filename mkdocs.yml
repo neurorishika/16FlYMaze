@@ -111,6 +111,7 @@ nav:
     - Rig Configurator: user-guide/rig-configurator.md
     - Mask Designer: user-guide/mask-designer.md
     - Experimenter: user-guide/experimenter.md
+    - Experiment Protocol: user-guide/experiment-protocol.md
     - Experiment Designers: user-guide/experiment-designers.md
     - Stimulus Designer: user-guide/stimulus-designer.md
     - Analysis Tools: user-guide/analysis.md
