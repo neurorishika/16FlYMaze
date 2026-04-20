@@ -1,0 +1,131 @@
+site_name: 16FlYMaze
+site_description: A High Throughput Two-Choice Assay for Drosophilids
+site_author: Rishika Mohanta
+site_url: https://neurorishika.github.io/16FlYMaze
+repo_name: neurorishika/16FlYMaze
+repo_url: https://github.com/neurorishika/16FlYMaze
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  logo: assets/fruitfly.ico
+  favicon: assets/fruitfly.ico
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.instant
+    - navigation.tracking
+    - search.highlight
+    - search.suggest
+    - search.share
+    - content.tabs.link
+    - content.code.copy
+    - content.code.annotate
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/neurorishika
+      name: neurorishika on GitHub
+  generator: false
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search:
+      lang: en
+  - minify:
+      minify_html: true
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      title: On this page
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+  - tables
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: getting-started/installation.md
+    - Quick Start: getting-started/quickstart.md
+    - Hardware Setup: getting-started/hardware-setup.md
+  - User Guide:
+    - Overview: user-guide/overview.md
+    - Project Manager: user-guide/project-manager.md
+    - Rig Configurator: user-guide/rig-configurator.md
+    - Mask Designer: user-guide/mask-designer.md
+    - Experimenter: user-guide/experimenter.md
+    - Experiment Protocol: user-guide/experiment-protocol.md
+    - Experiment Designers: user-guide/experiment-designers.md
+    - Stimulus Designer: user-guide/stimulus-designer.md
+    - Analysis Tools: user-guide/analysis.md
+  - API Reference:
+    - Controllers:
+      - Camera: api-reference/controllers/camera.md
+      - LED: api-reference/controllers/led.md
+      - Odor Valves: api-reference/controllers/odor.md
+      - Mass Flow Controllers: api-reference/controllers/mfc.md
+    - Utilities:
+      - Arena Tracker: api-reference/utils/tracker.md
+      - Experimenter: api-reference/utils/experimenter.md
+      - Emailer: api-reference/utils/emailer.md
+      - Printer: api-reference/utils/printer.md
+    - Analysis:
+      - Data Processor: api-reference/analysis/data-processor.md
+  - Contributing: contributing.md

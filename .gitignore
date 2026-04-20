@@ -1,3 +1,8 @@
 **/mask.npy
 
 **/processed/
+
+# Email / OAuth credentials — never commit these
+client_secret.json
+**/client_secret.json
+**/.credentials/
