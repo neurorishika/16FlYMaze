@@ -59,6 +59,8 @@ A typical experimental session follows this order:
 7. **Analyse data** (after each session or batch)  
    → [Analysis Tools](analysis.md)
 
+For day-to-day operational procedures — fly starvation, loading, and odor replacement — refer to the [Experiment Protocol](experiment-protocol.md).
+
 ---
 
 ## File Types

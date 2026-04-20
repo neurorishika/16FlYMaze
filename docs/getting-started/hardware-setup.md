@@ -122,7 +122,9 @@ Alicat Scientific mass flow controllers regulate the airflow through the odor de
 
 ---
 
-## Rig Wiring Guide
+## Odor Maintenance
+
+For weekly odor vial preparation and replacement procedures, see [Experiment Protocol → Y-maze Odor Replacement Instructions](../user-guide/experiment-protocol.md#y-maze-odor-replacement-instructions).
 
 ### LED Controller Serial Connections
 
