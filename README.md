@@ -203,23 +203,27 @@ Copyright © 2022 [Rishika Mohanta](https://github.com/neurorishika), Turner Lab
 
 ## 👥 Team & Contributors
 
-16FlYMaze was designed and built by a multidisciplinary team at **Janelia Research Campus, HHMI**:
+16FlYMaze was designed and built by a multidisciplinary team led by **Glenn Turner's Lab** at **Janelia Research Campus, Howard Hughes Medical Institute (HHMI)**:
 
-| Name | Role |
-|---|---|
-| **Rishika Mohanta** | Project Lead · Software · Design · Final Assembly |
-| **Glenn Turner** | Head of Lab · Original Design |
-| **Adithya Rajagopalan** | Original Design |
-| **Peter Polidoro** | Pneumatics · Electrical · Assembly |
-| **Steven Sawtelle** | Optics |
-| **Tobias Goulet** | Pneumatics · Electrical · Assembly |
-| **Jeff Talbot** | Pneumatics · Electrical · Assembly |
+| Name | Affiliation | Role |
+|---|---|---|
+| **Rishika Mohanta** | Janelia Research Campus, HHMI | Project Lead · Software · Design · Final Assembly |
+| **Glenn Turner** | Janelia Research Campus, HHMI | Head of Lab · Original Design |
+| **Adithya Rajagopalan** | Janelia Research Campus, HHMI | Original Design |
+| **Tzuhsuan Ma** | Janelia Research Campus, HHMI | Experiment Design |
+| **Ann Hermundstad** | Janelia Research Campus, HHMI | Experiment Design |
+| **Kevin Miller** | Google DeepMind | Experiment Design |
+| **Maria Eckstein** | Google DeepMind | Experiment Design |
+| **Peter Polidoro** | Janelia Research Campus, HHMI | Pneumatics · Electrical · Assembly |
+| **Steven Sawtelle** | Janelia Research Campus, HHMI | Optics |
+| **Tobias Goulet** | Janelia Research Campus, HHMI | Pneumatics · Electrical · Assembly |
+| **Jeff Talbot** | Janelia Research Campus, HHMI | Pneumatics · Electrical · Assembly |
 
 ---
 
 ## 🙏 Acknowledgements
 
-Developed in the **Turner Lab** at Janelia Research Campus, Howard Hughes Medical Institute, for high-throughput *Drosophila* behavioral neuroscience.
+16FlYMaze was built in **Glenn Turner's Lab** at the **Janelia Research Campus, Howard Hughes Medical Institute (HHMI)** and was funded by HHMI. We gratefully acknowledge the Janelia Research Campus for providing the infrastructure, resources, and collaborative environment that made this project possible.
 
 ---
 
