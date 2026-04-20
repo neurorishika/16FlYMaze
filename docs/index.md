@@ -158,6 +158,9 @@ graph TD
 | **Steven Sawtelle** | Janelia Research Campus, HHMI | Optics |
 | **Tobias Goulet** | Janelia Research Campus, HHMI | Pneumatics · Electrical · Assembly |
 | **Jeff Talbot** | Janelia Research Campus, HHMI | Pneumatics · Electrical · Assembly |
+| **Katie Boone** | Janelia Research Campus, HHMI | Experimenter |
+| **Aparna Dev** | Janelia Research Campus, HHMI | Experimenter |
+| **Claire Manangan** | Janelia Research Campus, HHMI | Experimenter |
 
 ---
 
