@@ -1,6 +1,6 @@
 # User Guide Overview
 
-The SixteenY system is operated through a suite of seven graphical applications, each designed for a specific stage of the experimental workflow.
+The **16FlYMaze** system is operated through a suite of seven graphical applications, each designed for a specific stage of the experimental workflow.
 
 ---
 

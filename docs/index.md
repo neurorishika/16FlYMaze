@@ -3,13 +3,17 @@ hide:
   - navigation
 ---
 
-<div class="hero" markdown>
+<div align="center" markdown>
 
-# 🪰 SixteenY
+<img src="https://github.com/user-attachments/assets/67788a17-e3d2-42c9-ab11-7ce43b7a27a1" alt="16FlYMaze Logo" style="max-width: 520px; margin-bottom: 0.5rem;" />
 
-**High-throughput optogenetic 2AFC behavioral system for *Drosophila***
+## *A High Throughput Two-Choice Assay for Drosophilids*
 
-Run 16 simultaneous Y-maze experiments with real-time GPU-accelerated fly tracking, optogenetic stimulation, odor delivery, and automated data collection — all from a unified GUI suite.
+[![Python](https://img.shields.io/badge/Python-3.8-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![Platform](https://img.shields.io/badge/Platform-Windows-0078D4?style=flat-square&logo=windows&logoColor=white)](#)
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue?style=flat-square)](https://github.com/neurorishika/16FlYMaze/blob/main/LICENSE)
+[![CUDA](https://img.shields.io/badge/CUDA-11.x-76B900?style=flat-square&logo=nvidia&logoColor=white)](#)
+[![ROS2](https://img.shields.io/badge/ROS2-Humble-22314E?style=flat-square&logo=ros&logoColor=white)](#)
 
 [🚀 Get Started](getting-started/installation.md){ .md-button .md-button--primary }
 [📖 User Guide](user-guide/overview.md){ .md-button }
@@ -18,15 +22,20 @@ Run 16 simultaneous Y-maze experiments with real-time GPU-accelerated fly tracki
 
 ---
 
-## What is SixteenY?
+## What is 16FlYMaze?
 
-**SixteenY** (also known as the Turner Lab Opto2AFC 16-Y system) is a complete hardware-software platform for running automated optogenetic Two-Alternative Forced Choice (2AFC) behavioral experiments on *Drosophila melanogaster* in 16 simultaneous Y-shaped arenas.
+**16FlYMaze** is a complete hardware-software platform for running automated optogenetic Two-Alternative Forced Choice (2AFC) behavioral experiments on *Drosophila melanogaster* and other drosophilids in **16 simultaneous Y-shaped arenas**.
 
-The system was developed in the **Turner Lab** to enable high-throughput, reproducible behavioral neuroscience experiments that combine:
+The system was developed in the **Turner Lab at Janelia Research Campus (HHMI)** to enable high-throughput, reproducible behavioral neuroscience experiments that combine:
 
 - **Odor discrimination** — two distinct odors delivered to the left and right arms of each Y-maze
 - **Optogenetic reinforcement** — precisely timed LED light pulses delivered as conditioned stimuli
 - **Automated tracking** — GPU-accelerated real-time detection of fly position and choice
+
+<div align="center" markdown>
+<img src="https://github.com/user-attachments/assets/3a61b082-7bfa-481a-9c7e-401d50e70d8a" alt="16FlYMaze Rig CAD" style="max-width: 680px; border-radius: 8px; margin: 1rem 0;" />
+<br><em>CAD renders: arena stack (left) and full imaging rig with overhead FLIR camera (right)</em>
+</div>
 
 ---
 
@@ -38,7 +47,7 @@ The system was developed in the **Turner Lab** to enable high-throughput, reprod
 
     ---
 
-    Run the same or independent experiments on 16 Y-shaped arenas at once, maximizing throughput and enabling within-session comparisons.
+    Run identical or independent experiments on 16 Y-shaped arenas at once, maximizing throughput and enabling within-session comparisons.
 
 -   :fontawesome-solid-bolt: **GPU-Accelerated Tracking**
 
@@ -90,7 +99,7 @@ The system was developed in the **Turner Lab** to enable high-throughput, reprod
 
 ```mermaid
 graph TD
-    A[👩‍🔬 Researcher] --> B[16Y GUI Suite]
+    A[👩‍🔬 Researcher] --> B[16FlYMaze GUI Suite]
     B --> C[Experimenter]
     B --> D[Project Manager]
     B --> E[Rig Configurator]
@@ -131,7 +140,24 @@ graph TD
 
 ---
 
+## Team & Contributors
+
+16FlYMaze was designed and built by a multidisciplinary team at **Janelia Research Campus, HHMI**:
+
+| Name | Role |
+|---|---|
+| **Rishika Mohanta** | Project Lead · Software · Design · Final Assembly |
+| **Glenn Turner** | Head of Lab · Original Design |
+| **Adithya Rajagopalan** | Original Design |
+| **Peter Polidoro** | Pneumatics · Electrical · Assembly |
+| **Steven Sawtelle** | Optics |
+| **Tobias Goulet** | Pneumatics · Electrical · Assembly |
+| **Jeff Talbot** | Pneumatics · Electrical · Assembly |
+
+---
+
 ## License
 
-SixteenY is released under the **BSD 3-Clause License**.  
-Copyright © 2022 Rishika Mohanta, Turner Lab.
+16FlYMaze is released under the **BSD 3-Clause License**.  
+Copyright © 2022 Rishika Mohanta, Turner Lab, Janelia Research Campus, HHMI.
+

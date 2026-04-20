@@ -1,9 +1,9 @@
-site_name: SixteenY — Turner Lab Opto2AFC
-site_description: High-throughput optogenetic 2AFC behavioral system for 16 simultaneous Drosophila experiments
+site_name: 16FlYMaze
+site_description: A High Throughput Two-Choice Assay for Drosophilids
 site_author: Rishika Mohanta
-site_url: https://neurorishika.github.io/TurnerLab_Opto2AFC_16Y
-repo_name: neurorishika/TurnerLab_Opto2AFC_16Y
-repo_url: https://github.com/neurorishika/TurnerLab_Opto2AFC_16Y
+site_url: https://neurorishika.github.io/16FlYMaze
+repo_name: neurorishika/16FlYMaze
+repo_url: https://github.com/neurorishika/16FlYMaze
 edit_uri: edit/main/docs/
 
 theme:

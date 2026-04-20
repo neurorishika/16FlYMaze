@@ -1,10 +1,8 @@
 <div align="center">
 
-<img src="documentation/16FlyMaze.png" alt="16-Y Arena" width="320"/>
+<img src="https://github.com/user-attachments/assets/67788a17-e3d2-42c9-ab11-7ce43b7a27a1" alt="16FlYMaze Logo" width="480"/>
 
-# 🪰 SixteenY — Turner Lab Opto2AFC 16-Y Arena
-
-**A high-throughput optogenetic 2-Alternative Forced Choice (2AFC) behavioral system for 16 simultaneous *Drosophila* experiments**
+### *A High Throughput Two-Choice Assay for Drosophilids*
 
 [![Python](https://img.shields.io/badge/Python-3.8-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/downloads/release/python-380/)
 [![Platform](https://img.shields.io/badge/Platform-Windows-0078D4?style=for-the-badge&logo=windows&logoColor=white)](https://www.microsoft.com/windows)
@@ -13,7 +11,7 @@
 [![ROS2](https://img.shields.io/badge/ROS2-Humble-22314E?style=for-the-badge&logo=ros&logoColor=white)](https://docs.ros.org/en/humble/)
 [![PyQt5](https://img.shields.io/badge/GUI-PyQt5-41CD52?style=for-the-badge&logo=qt&logoColor=white)](https://riverbankcomputing.com/software/pyqt/)
 
-[📖 Documentation](https://neurorishika.github.io/TurnerLab_Opto2AFC_16Y) · [🚀 Quick Start](#quick-start) · [🐛 Report a Bug](https://github.com/neurorishika/TurnerLab_Opto2AFC_16Y/issues) · [💡 Request Feature](https://github.com/neurorishika/TurnerLab_Opto2AFC_16Y/issues)
+[📖 Documentation](https://neurorishika.github.io/16FlYMaze) · [🚀 Quick Start](#quick-start) · [🐛 Report a Bug](https://github.com/neurorishika/16FlYMaze/issues) · [💡 Request Feature](https://github.com/neurorishika/16FlYMaze/issues)
 
 </div>
 
@@ -21,9 +19,15 @@
 
 ## 📋 Overview
 
-**SixteenY** is a complete software stack for running automated optogenetic 2-Alternative Forced Choice (2AFC) behavioral experiments on *Drosophila melanogaster* (fruit flies) in 16 simultaneous Y-shaped arenas. Developed at the Turner Lab, this system integrates hardware control, real-time video tracking, experiment management, and post-hoc data analysis into a cohesive, GUI-driven workflow.
+**16FlYMaze** is a complete hardware-software platform for running automated optogenetic Two-Alternative Forced Choice (2AFC) behavioral experiments on *Drosophila melanogaster* and other drosophilids in 16 simultaneous Y-shaped arenas. Developed at the **Turner Lab** at Janelia Research Campus, the system integrates hardware control, real-time GPU-accelerated video tracking, experiment management, and post-hoc data analysis into a cohesive, GUI-driven workflow.
 
 The system uses GPU-accelerated image processing (CUDA/CuPy) to track fly positions across all 16 arenas in real time, delivers precisely controlled odor stimuli and optogenetic light pulses, and records experimental outcomes for downstream analysis.
+
+<div align="center">
+<img src="https://github.com/user-attachments/assets/3a61b082-7bfa-481a-9c7e-401d50e70d8a" alt="16FlYMaze Rig" width="680"/>
+<br><sub><i>CAD renders of the 16FlYMaze hardware: arena stack (left) and full imaging rig with overhead camera (right)</i></sub>
+</div>
+
 
 ---
 
@@ -47,7 +51,7 @@ The system uses GPU-accelerated image processing (CUDA/CuPy) to track fly positi
 
 ```
 ┌──────────────────────────────────────────────────────────────────────┐
-│                         SixteenY Software Stack                      │
+│                        16FlYMaze Software Stack                      │
 ├───────────────────────┬──────────────────────────────────────────────┤
 │   GUI Applications    │  sixteeny/gui/                               │
 │                       │  ├─ 16Y_experimenter.py      (main runner)   │
@@ -129,7 +133,7 @@ pip install --upgrade google-api-python-client oauth2client
 pip install -e .
 ```
 
-> 📖 For full installation details including CUCIM, ROS2 interface setup, and email configuration, see the [Installation Guide](https://neurorishika.github.io/TurnerLab_Opto2AFC_16Y/getting-started/installation/).
+> 📖 For full installation details including CUCIM, ROS2 interface setup, and email configuration, see the [Installation Guide](https://neurorishika.github.io/16FlYMaze/getting-started/installation/).
 
 ### Running the Applications
 
@@ -197,13 +201,28 @@ Copyright © 2022 [Rishika Mohanta](https://github.com/neurorishika), Turner Lab
 
 ---
 
+## 👥 Team & Contributors
+
+16FlYMaze was designed and built by a multidisciplinary team at **Janelia Research Campus, HHMI**:
+
+| Name | Role |
+|---|---|
+| **Rishika Mohanta** | Project Lead · Software · Design · Final Assembly |
+| **Glenn Turner** | Head of Lab · Original Design |
+| **Adithya Rajagopalan** | Original Design |
+| **Peter Polidoro** | Pneumatics · Electrical · Assembly |
+| **Steven Sawtelle** | Optics |
+| **Tobias Goulet** | Pneumatics · Electrical · Assembly |
+| **Jeff Talbot** | Pneumatics · Electrical · Assembly |
+
+---
+
 ## 🙏 Acknowledgements
 
-Developed in the **Turner Lab** for high-throughput *Drosophila* behavioral neuroscience.  
-Special thanks to all contributors and collaborators who helped build and validate this system.
+Developed in the **Turner Lab** at Janelia Research Campus, Howard Hughes Medical Institute, for high-throughput *Drosophila* behavioral neuroscience.
 
 ---
 
 <div align="center">
-<sub>Built with ❤️ for fly neuroscience</sub>
+<sub>Built with ❤️ for fly neuroscience · Turner Lab · Janelia Research Campus, HHMI</sub>
 </div>
