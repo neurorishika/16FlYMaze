@@ -8,6 +8,11 @@ SixteenY includes three experiment design tools, each implementing a different b
 
 The **2AFC Designer** creates standard Two-Alternative Forced Choice experiments where flies must choose between two odors with configurable reward probabilities.
 
+### Screenshot
+
+![2AFC Designer screenshot](../assets/python_NJzFi08lTu.png)
+*The 2AFC Designer: each row is one block of trials with configurable trial count and reward probabilities for each odor.*
+
 ### Launching
 
 From the Project Manager, click **New 2AFC Experiment**, or run:

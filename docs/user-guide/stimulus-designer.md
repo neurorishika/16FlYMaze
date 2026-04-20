@@ -8,6 +8,9 @@ The **Stimulus Designer** creates LED pulse-pattern stimulus files (`.stim`) tha
 
 From the Project Manager, click **New Stimulus**, or double-click an existing `.stim` file to edit it.
 
+![Stimulus Designer screenshot](../assets/python_lAp6401Qla.png)
+*The 16Y Stimulus Designer showing a 500 ms red-light pulse with live waveform preview.*
+
 ---
 
 ## Stimulus Parameters

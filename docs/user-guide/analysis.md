@@ -6,6 +6,9 @@ SixteenY includes built-in post-hoc analysis and visualization tools that are la
 
 ## Data Processor
 
+![Data Processor screenshot](../assets/python_x13rHbNHlK.png)
+*The 16Y Data Processor GUI for post-hoc analysis of completed experiments.*
+
 The **Data Processor** (`16Y_data_processor.py`) provides a GUI for loading, cleaning, and analyzing data from completed experiments.
 
 ### Launching

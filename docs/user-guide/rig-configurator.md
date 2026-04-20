@@ -14,6 +14,9 @@ run_rig_configurator.bat
 
 ## Overview
 
+![Rig Configurator screenshot](../assets/python_9AtldfpWPU.png)
+*The 16Y Rig Configurator GUI showing LED, camera, MFC, and odor valve settings.*
+
 The Rig Configurator stores all hardware configuration in a `rig_config.json` file that is loaded by the Experimenter at startup. You only need to reconfigure when hardware connections change.
 
 ---

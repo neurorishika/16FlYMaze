@@ -16,6 +16,9 @@ Or double-click the **16Y Project Manager** desktop shortcut (after running `ini
 
 ## Overview
 
+![Project Manager screenshot](../assets/python_r8BR4YiMMb.png)
+*The 16Y Project Manager showing the Experimental Data, Stimulus Zoo, and Experiment Zoo panels.*
+
 The Project Manager displays three panels side-by-side:
 
 | Panel | Contents |

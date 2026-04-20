@@ -12,6 +12,13 @@ run_mask_designer.bat
 
 ---
 
+## Overview
+
+![Mask Designer labelling view](../assets/python_QjeRXazRNs.png)
+*The Mask Designer's labelling interface showing all 16 arenas with numbered keypoints (center, start-arm tip, left-arm tip, right-arm tip) overlaid on the camera image.*
+
+---
+
 ## What is an Arena Mask?
 
 An arena mask is a NumPy array (`.npy`) that encodes, for every pixel in the camera image, which Y-maze arena and which arm (0=Start, 1=Left, 2=Right, or background) that pixel belongs to.

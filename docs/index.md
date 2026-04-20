@@ -17,6 +17,7 @@ hide:
 
 [🚀 Get Started](getting-started/installation.md){ .md-button .md-button--primary }
 [📖 User Guide](user-guide/overview.md){ .md-button }
+[📄 Full Documentation (PDF)](assets/16FlyMaze.pdf){ .md-button }
 
 </div>
 

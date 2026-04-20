@@ -12,6 +12,13 @@ run_experiment.bat
 
 ---
 
+## Overview
+
+![16Y Experimenter screenshot](../assets/python_CEw3Nl7X3H.png)
+*The 16Y Experimenter GUI: assign genotypes and experiment files to each of the 16 arenas before starting a session.*
+
+---
+
 ## Pre-experiment Setup
 
 Before clicking Start, complete all sections of the Experimenter interface:
